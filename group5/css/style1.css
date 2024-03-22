@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#home-bg{
+	background-image: url(../images/wat.gif);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header{
+	background: #097969;
+	height: 80px;
+}
+
+#logo{
+	float: right;
+	background-color: #097969;
+	height: 80px;
+}
+
+nav ul{
+	list-style-type: none;
+	float: left;
+	padding-top: 20px;
+}
+nav ul li{
+	float: left;
+	font: 30px 'Berlin';
+	margin-right: 20px;
+	color: #FFFFFF;
+}
+nav a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #FFA;
+}
+
+section{
+	margin-top: 30px;
+	margin-left: 400px;
+        text-align: center;
+	width: 1056px;
+	color: #FFFFFF;
+}
+
+section h3{
+	font: 40px 'Amperzand';
+	margin-top: 10px;
+}
+
+section h1{
+	font-family: 'BerlinSansFB';
+        margin-top: 10px;
+}
+
+footer{
+	position: absolute;
+	background: #097969;
+	text-align: center;
+	height: 35px;
+	color: #FFFFFF;
+	font: 30px 'Berlin';
+	z-index: 1;
+	bottom: -1300px;
+	width: 100%;
+}
+
+video{
+      margin-left: 100px;
+      margin-top: 100px;
+}
+
+Center{
+       margin-top: 30px;
+       margin-left: 0px;
+       text-align: center;
+       width: 1056px;
+       color: #FFFFFF;
+}
+
+.container {
+ margin-right: -1400px;
+ display: grid;
+ align-items: center-right; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+}
+
+video {
+  max-width: 1600%;
+  max-height:1040%;
+}
+
+.text {
+  margin-top: 30px;
+  margin-right: -150px;
+  font-size: 50px;
+}
+
+.text2 {
+  margin-top: 50px;
+  margin-right: -100px;
+  font-size: 30px;
+}
+
+center-right{
+       margin-left: 0px;
+       text-align: center;
+       width: 1056px;
+       color: #FFFFFF;
+}
+        
+@media only screen and (max-width: 500px) {
+    body#home-bg 
+	{
+		background-size: contain;
+		background-repeat: repeat-x;
+	}
+}
+
+
+
+
+
+
+
+
+

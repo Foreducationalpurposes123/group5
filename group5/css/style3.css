@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#home-bg{
+	background-image: url(../images/wat.gif);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header{
+	background: #097969;
+	float: top;
+	height: 80px;
+}
+
+#logo{
+	float: right;
+	background-color: #097969;
+	height: 80px;
+}
+section{
+	margin-down: 1000px;
+	margin-left: 400px;
+    text-align: down;
+	width: 1056px;
+	color: #FFFFFF;
+}
+
+Center{
+       margin-below: 30px;
+       margin-left: 0px;
+       text-align: center;
+       width: 1056px;
+       color: #FFFFFF;
+}
+
+.container {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+}
+
+.game {
+  margin-below: 1000px;
+  margin-right: -150px;
+  font-size: 50px;
+}
+nav ul{
+	list-style-type: none;
+	float: left;
+	padding-top: 20px;
+}
+nav ul li{
+	float: left;
+	font: 30px 'Berlin';
+	margin-right: 20px;
+	color: #FFFFFF;
+}
+nav a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #FFA;
+}
+
+footer{
+	position: absolute;
+	background: #097969;
+	text-align: center;
+	height: 35px;
+	color: #FFFFFF;
+	font: 30px 'Berlin';
+	z-index: 1;
+	bottom: -1900px;
+	width: 100%;
+}
+
+        
+@media only screen and (max-width: 500px) {
+    body#home-bg 
+	{
+		background-size: contain;
+		background-repeat: repeat-x;
+	}
+}
+
+
+
+
+
+
+
+
+
